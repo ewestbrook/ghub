@@ -50,6 +50,10 @@
 
 ;;; Code:
 
+(add-to-list 'load-path (expand-file-name "~/git/emacs/dash.el/"))
+(add-to-list 'load-path (expand-file-name "~/git/emacs/graphql.el/"))
+(add-to-list 'load-path (expand-file-name "~/git/emacs/treepy.el/"))
+
 (require 'auth-source)
 (require 'cl-lib)
 (require 'compat)
