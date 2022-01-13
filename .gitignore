@@ -9,3 +9,7 @@
 /lisp/*.elc
 
 /docs/ghub/
+*.elc
+dir
+ghub.info
+ghub-autoloads.el
